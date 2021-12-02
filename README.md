@@ -35,6 +35,10 @@ yarn deploy
 
 📱 Open http://localhost:3000 to see the app
 
+### Demo hosted on Arweave
+
+[ar://](https://arweave.net/3KKKVjzPpUg7st5ZZB6GMrM5Ooyb2B_Pb_RptqafkWI)
+
 ### Create Ascii Art NFT on Arweave
 
 1. Install ArConnect and allow site to use your wallet
