@@ -1,5 +1,7 @@
 # Weavable - built with 🏗 Scaffold-ETH
 
+<img width="375" alt="Main screen" src="https://user-images.githubusercontent.com/1016509/144363859-3ba08cc7-6435-4927-af8d-62d321e7ca82.png">
+
 # 🏄‍♂️ Quick Start
 
 ### Manual setup
@@ -43,6 +45,8 @@ yarn deploy
 6. Click "Publish Art" when satisfied
 7. See Arweave hashes update
 8. Your new Weavable will appear at the bottom
+
+<img width="374" alt="Weavables list" src="https://user-images.githubusercontent.com/1016509/144363905-a3d45ea0-5706-4258-8010-bcbddf41989a.png">
 
 ### View minted Ascii Art NFTs on OpenSea
 
