@@ -71,7 +71,7 @@ function WeavableURI({ uri, }) {
 }
 
 function MyWeavableByTokenId({ tokenId, readContracts, }) {
-  const tokenURI = useContractReader(readContracts, "YourContract", "tokenURI", [tokenId]);
+  const tokenURI = useContractReader(readContracts, "YourContract", "tokenURI", [tokenId], pollTime);
 
   return (
     <div>
@@ -81,7 +81,7 @@ function MyWeavableByTokenId({ tokenId, readContracts, }) {
 }
 
 function MyWeavableByIndex({ index, address, readContracts, }) {
-  const tokenId = useContractReader(readContracts, "YourContract", "tokenOfOwnerByIndex", [address, index]);
+  const tokenId = useContractReader(readContracts, "YourContract", "tokenOfOwnerByIndex", [address, index], pollTime);
 
   return (
     <div>
@@ -91,8 +91,9 @@ function MyWeavableByIndex({ index, address, readContracts, }) {
   );
 }
 
+const pollTime = 15000;
 function MyWeavables({ address, readContracts, }) {
-  const balance = useContractReader(readContracts, "YourContract", "balanceOf", [address]);
+  const balance = useContractReader(readContracts, "YourContract", "balanceOf", [address], pollTime);
 
   return (
     <div>

@@ -64,7 +64,7 @@ export default function Account({
           ) : (
             "Connecting..."
           )}
-          <Balance address={address} provider={localProvider} price={price} />
+          {/*<Balance address={address} provider={localProvider} price={price} />*/}
           <Wallet
             address={address}
             provider={localProvider}

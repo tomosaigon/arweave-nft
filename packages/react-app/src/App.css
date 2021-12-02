@@ -24,4 +24,5 @@
 
 .App textarea.ant-input {
   line-height: 1em;
+  font-size: 2vw;
 }
